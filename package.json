@@ -1,0 +1,43 @@
+{
+  "name": "get-your-guide-random-places",
+  "version": "1.0.0",
+  "description": "Visualise what a random GetYourGuide customer is doing right now in a slide show",
+  "main": "app.js",
+  "scripts": {
+    "start": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izebb/get-your-guide-random-places.git"
+  },
+  "keywords": [
+    "javascript",
+    "front-end",
+    "sass",
+    "css3",
+    "es5",
+    "getyourguide-test"
+  ],
+  "author": "gabriel.izebhigie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/izebb/get-your-guide-random-places/issues"
+  },
+  "homepage": "https://github.com/izebb/get-your-guide-random-places#readme",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-if": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.4",
+    "gulp-util": "^3.0.7",
+    "http-server": "^0.9.0",
+    "node-sass": "^3.8.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}

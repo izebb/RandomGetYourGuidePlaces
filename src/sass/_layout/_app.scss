@@ -1,0 +1,11 @@
+.app {
+    background-color: $bg-color;
+}
+
+.app-root {
+    position: fixed;
+    height: $app-root-height;
+    width: $app-root-width;
+    left: 0;
+    top: 0;
+}

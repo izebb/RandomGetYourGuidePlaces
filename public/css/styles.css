@@ -1,0 +1,231 @@
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+/* line 9, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 19, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+body {
+  margin: 0; }
+
+/* line 33, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/* line 54, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 67, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 77, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+[hidden],
+template {
+  display: none; }
+
+/* line 89, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+a {
+  background-color: transparent; }
+
+/* line 98, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* line 110, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 118, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/* line 127, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 136, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 145, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 154, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 162, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 170, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 174, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* line 185, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+img {
+  border: 0; }
+
+/* line 193, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 204, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 212, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 221, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+pre {
+  overflow: auto; }
+
+/* line 229, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 252, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 266, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+button {
+  overflow: visible; }
+
+/* line 277, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+button,
+select {
+  text-transform: none; }
+
+/* line 290, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 302, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/* line 311, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 322, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+input {
+  line-height: normal; }
+
+/* line 334, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 346, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 356, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+/* line 367, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 376, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 387, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 396, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+textarea {
+  overflow: auto; }
+
+/* line 405, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+optgroup {
+  font-weight: bold; }
+
+/* line 416, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 421, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+td,
+th {
+  padding: 0; }
+
+/* line 1, /Users/gabrielizebhigie/__/random-places/src/sass/_layout/_app.scss */
+.app {
+  background-color: #444; }
+
+/* line 5, /Users/gabrielizebhigie/__/random-places/src/sass/_layout/_app.scss */
+.app-root {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiLCJfYmFzZS9fYmFzZS5zY3NzIiwiX2Jhc2UvX2NvbG9ycy5zY3NzIiwiX2Jhc2UvX2RpbS5zY3NzIiwiX2Jhc2UvX25vcm1hbGl6ZS5zY3NzIiwiX2xheW91dC9fbGF5b3V0LnNjc3MiLCJfbGF5b3V0L19hcHAuc2NzcyJdLCJtYXBwaW5ncyI6IkFJQUEsNEVBQTRFOztBQVE1RSxBQUFBLElBQUksQ0FBQztFQUNILFdBQVcsRUFBRSxVQUFXO0VBQ3hCLG9CQUFvQixFQUFFLElBQUs7RUFDM0Isd0JBQXdCLEVBQUUsSUFBSyxHQUNoQzs7O0FBTUQsQUFBQSxJQUFJLENBQUM7RUFDSCxNQUFNLEVBQUUsQ0FBRSxHQUNYOzs7QUFZRCxBQUFBLE9BQU87QUFDUCxBQUFBLEtBQUs7QUFDTCxBQUFBLE9BQU87QUFDUCxBQUFBLFVBQVU7QUFDVixBQUFBLE1BQU07QUFDTixBQUFBLE1BQU07QUFDTixBQUFBLE1BQU07QUFDTixBQUFBLE1BQU07QUFDTixBQUFBLElBQUk7QUFDSixBQUFBLElBQUk7QUFDSixBQUFBLEdBQUc7QUFDSCxBQUFBLE9BQU87QUFDUCxBQUFBLE9BQU8sQ0FBQztFQUNOLE9BQU8sRUFBRSxLQUFNLEdBQ2hCOzs7QUFPRCxBQUFBLEtBQUs7QUFDTCxBQUFBLE1BQU07QUFDTixBQUFBLFFBQVE7QUFDUixBQUFBLEtBQUssQ0FBQztFQUNKLE9BQU8sRUFBRSxZQUFhO0VBQ3RCLGNBQWMsRUFBRSxRQUFTLEdBQzFCOzs7QUFPRCxBQUFvQixLQUFmLEFBQUEsSUFBSyxFQUFBLEFBQUEsQUFBUyxRQUFSLEFBQUEsR0FBVztFQUNwQixPQUFPLEVBQUUsSUFBSztFQUNkLE1BQU0sRUFBRSxDQUFFLEdBQ1g7OztDQU9ELEFBQUEsQUFBTyxNQUFOLEFBQUE7QUFDRCxBQUFBLFFBQVEsQ0FBQztFQUNQLE9BQU8sRUFBRSxJQUFLLEdBQ2Y7OztBQVNELEFBQUEsQ0FBQyxDQUFDO0VBQ0EsZ0JBQWdC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LENBQUM7RUFDSixXQUFXLEVBQUUsTUFBTyxHQUNyQjs7O0FBVUQsQUFBcUIsS0FBaEIsQ0FBQSxBQUFBLElBQUMsQ0FBSyxVQUFVLEFBQWY7QUFDTixBQUFrQixLQUFiLENBQUEsQUFBQSxJQUFDLENBQUssT0FBTyxBQUFaLEVBQWM7RUFDbEIsVUFBVSxFQUFFLFVBQVc7RUFDdkIsT0FBTyxFQUFFLENBQUUsR0FDWjs7O0FBUUQsQUFBb0IsS0FBZixDQUFBLEFBQUEsSUFBQyxDQUFLLFFBQVEsQUFBYixDQUFjLDJCQUEyQjtBQUMvQyxBQUFvQixLQUFmLENBQUEsQUFBQSxJQUFDLENBQUssUUFBUSxBQUFiLENBQWMsMkJBQTJCLENBQUM7RUFDOUMsTUFBTSxFQUFFLElBQUssR0FDZDs7O0FBT0QsQUFBbUIsS0FBZCxDQUFBLEFBQUEsSUFBQyxDQUFLLFFBQVEsQUFBYixFQUFlO0VBQ25CLGtCQUFrQixFQUFFLFNBQVU7RUFDOUIsVUFBVSxFQUFFLFdBQVksR0FDekI7OztBQVFELEFBQW9CLEtBQWYsQ0FBQSxBQUFBLElBQUMsQ0FBSyxRQUFRLEFBQWIsQ0FBYyw4QkFBOEI7QUFDbEQsQUFBb0IsS0FBZixDQUFBLEFBQUEsSUFBQyxDQUFLLFFBQVEsQUFBYixDQUFjLDJCQUEyQixDQUFDO0VBQzlDLGtCQUFrQixFQUFFLElBQUssR0FDMUI7OztBQU1ELEFBQUEsUUFBUSxDQUFDO0VBQ1AsTUFBTSxFQUFFLGlCQUFrQjtFQUMxQixNQUFNLEVBQUUsS0FBTTtFQUNkLE9BQU8sRUFBRSxxQkFBc0IsR0FDaEM7OztBQU9ELEFBQUEsTUFBTSxDQUFDO0VBQ0wsTUFBTSxFQUFFLENBQUU7RUFDVixPQUFPLEVBQUUsQ0FBRSxHQUNaOzs7QUFNRCxBQUFBLFFBQVEsQ0FBQztFQUNQLFFBQVEsRUFBRSxJQUFLLEdBQ2hCOzs7QUFPRCxBQUFBLFFBQVEsQ0FBQztFQUNQLFdBQVcsRUFBRSxJQUFLLEdBQ25COzs7QUFTRCxBQUFBLEtBQUssQ0FBQztFQUNKLGVBQWUsRUFBRSxRQUFTO0VBQzFCLGNBQWMsRUFBRSxDQUFFLEdBQ25COzs7QUFFRCxBQUFBLEVBQUU7QUFDRixBQUFBLEVBQUUsQ0FBQztFQUNELE9BQU8sRUFBRSxDQUFFLEdBQ1o7OztBRXZhRCxBQUFBLElBQUksQ0FBQztFQUNELGdCQUFnQixFSkFULElBQUksR0lDZDs7O0FBRUQsQUFBQSxTQUFTLENBQUM7RUFDTixRQUFRLEVBQUUsS0FBTTtFQUNoQixNQUFNLEVITFEsSUFBSTtFR01sQixLQUFLLEVITFEsSUFBSTtFR01qQixJQUFJLEVBQUUsQ0FBRTtFQUNSLEdBQUcsRUFBRSxDQUFFLEdBQ1YiLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIuIn0= */
