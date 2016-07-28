@@ -1,0 +1,1 @@
+module.exports = "https://www.getyourguide.com/touring.json?key=2Gr0p7z96D";

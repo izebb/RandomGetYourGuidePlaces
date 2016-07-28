@@ -1,15 +1,15 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-/* line 9, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 9, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
 
-/* line 19, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 19, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 body {
   margin: 0; }
 
-/* line 33, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 33, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 article,
 aside,
 details,
@@ -25,7 +25,7 @@ section,
 summary {
   display: block; }
 
-/* line 54, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 54, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 audio,
 canvas,
 progress,
@@ -33,53 +33,53 @@ video {
   display: inline-block;
   vertical-align: baseline; }
 
-/* line 67, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 67, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
 
-/* line 77, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 77, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 [hidden],
 template {
   display: none; }
 
-/* line 89, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 89, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 a {
   background-color: transparent; }
 
-/* line 98, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 98, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 a:active,
 a:hover {
   outline: 0; }
 
-/* line 110, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 110, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted; }
 
-/* line 118, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 118, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 b,
 strong {
   font-weight: bold; }
 
-/* line 127, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 127, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 dfn {
   font-style: italic; }
 
-/* line 136, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 136, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
 
-/* line 145, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 145, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 mark {
   background: #ff0;
   color: #000; }
 
-/* line 154, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 154, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 small {
   font-size: 80%; }
 
-/* line 162, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 162, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -87,36 +87,36 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
-/* line 170, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 170, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 sup {
   top: -0.5em; }
 
-/* line 174, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 174, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
-/* line 185, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 185, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 img {
   border: 0; }
 
-/* line 193, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 193, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
-/* line 204, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 204, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
-/* line 212, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 212, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 hr {
   box-sizing: content-box;
   height: 0; }
 
-/* line 221, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 221, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 pre {
   overflow: auto; }
 
-/* line 229, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 229, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 code,
 kbd,
 pre,
@@ -124,7 +124,7 @@ samp {
   font-family: monospace, monospace;
   font-size: 1em; }
 
-/* line 252, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 252, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -134,16 +134,16 @@ textarea {
   font: inherit;
   margin: 0; }
 
-/* line 266, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 266, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 button {
   overflow: visible; }
 
-/* line 277, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 277, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 button,
 select {
   text-transform: none; }
 
-/* line 290, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 290, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -151,76 +151,76 @@ input[type="submit"] {
   -webkit-appearance: button;
   cursor: pointer; }
 
-/* line 302, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 302, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default; }
 
-/* line 311, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 311, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-/* line 322, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 322, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 input {
   line-height: normal; }
 
-/* line 334, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 334, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0; }
 
-/* line 346, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 346, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto; }
 
-/* line 356, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 356, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box; }
 
-/* line 367, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 367, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
-/* line 376, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 376, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em; }
 
-/* line 387, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 387, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 legend {
   border: 0;
   padding: 0; }
 
-/* line 396, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 396, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 textarea {
   overflow: auto; }
 
-/* line 405, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 405, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 optgroup {
   font-weight: bold; }
 
-/* line 416, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 416, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/* line 421, /Users/gabrielizebhigie/__/random-places/src/sass/_base/_normalize.scss */
+/* line 421, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_base/_normalize.scss */
 td,
 th {
   padding: 0; }
 
-/* line 1, /Users/gabrielizebhigie/__/random-places/src/sass/_layout/_app.scss */
+/* line 1, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_layout/_app.scss */
 .app {
   background-color: #444; }
 
-/* line 5, /Users/gabrielizebhigie/__/random-places/src/sass/_layout/_app.scss */
+/* line 5, c:/Users/gabriel.izebhigie/get-your-guide-random-places/src/sass/_layout/_app.scss */
 .app-root {
   position: fixed;
   height: 100%;
