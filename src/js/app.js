@@ -1,9 +1,15 @@
-var Customer =  require('./models/customer');
-var customer  = new Customer();
+var EventEmitter =  require('./utils/eventEmitter');
+var customerReducers =  require('./reducers/customerReducers');
+var customerAction =  require('./actions/customer');
 
-customer.on('change', function(value){
-	
+
+var customer  = new EventEmitter(customerReducers);
+// var views = new View('root');
+
+customer.on('change', function(state){
 
 });
 
-customer.fetch();
+customerAction.fetchCustomer(customer);
+
+
