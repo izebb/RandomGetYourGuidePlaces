@@ -3,25 +3,21 @@ var CONSTANTS = require('../constants/actionConstants');
 
 module.exports = function(state, action) {
     var state = state || {};
-        	console.log(action);
+    var _state = Object.create(state);
     switch (action.type) {
         case CONSTANTS.REQUEST_CUSTOMER:
-            return {
-            	 customer:{}
-        		isFetching: action.isFetching
-            };
+            _state.customer = {};
+            _state.isFetching = action.isFetching;
+            return _state;
         case CONSTANTS.RECEIVE_CUSTOMER:
-            return  {
-            	 customer: action.customer,
-        		isFetching: action.isFetching
-            };
+            _state.customer = action.customer;
+            _state.isFetching = action.isFetching;
+            return _state;
         case CONSTANTS.FETCH_CUSTOMER_ERROR:
-            return  {
-            	 error: action.error,
-        		isFetching: action.isFetching
-            };
-
+            _state.error = action.error;
+            _state.isFetching = action.isFetching;
+            return _state;
         default:
             return state;
     }
-}
+}   

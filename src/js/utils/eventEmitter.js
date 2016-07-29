@@ -11,17 +11,9 @@ EventEmitter.prototype.getState = function() {
 
 
 EventEmitter.prototype.dispatch = function(evtType, action) {
-    if (!this.emitters[evtType]) {
-        return false;
-    }
-
     for (var i = 0; i < this.emitters[evtType].length; i++) {
         var _emit = this.emitters[evtType][i];
-        var index = this.emitters[evtType].indexOf(_emit);
-        if (index > -1) {
-            this.emitters[evtType].splice(index, 1);
-        }
-        this.state = this.reducer(this.getState(), action)
+        this.state = this.reducer(this.getState(), action);
         _emit(this.state);
     }
 }
