@@ -71,6 +71,7 @@ function $httpFetch(url, customer) {
 function fetchCustomer(customer) {
     customer.dispatch('change', requestCustomers());
     $httpFetch(URL, customer);
+    // refresh
     setInterval(function() {
         $httpFetch(URL, customer);
     }, CONSTANTS.INTERVAL)
