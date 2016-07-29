@@ -5,7 +5,7 @@ var customerAction =  require('./actions/customer');
 var customer  = new EventEmitter(customerReducers);
 
 customer.on('change', function(state){
-	console.log(state)
+	//Change View
 });
 
 customerAction.fetchCustomer(customer);
