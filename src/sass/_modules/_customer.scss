@@ -1,0 +1,25 @@
+// Style for Customer Information
+.customer-details {
+    position: absolute;
+    z-index: 2;
+    max-width: 70%;
+    padding: 3em;
+    left: 0;
+    bottom: 10%;
+	@include animation(fadeIn 1.14s ease-out);
+
+}
+
+.customer-title {
+    font-size: 4em;
+    color: #FFF;
+    text-shadow: 0 1px #000;
+    margin-bottom: 10px;
+}
+
+.customer-name {
+	font-style: italic;
+	font-weight: 300;
+	font-size: 2em;
+	color: #FFF;
+}

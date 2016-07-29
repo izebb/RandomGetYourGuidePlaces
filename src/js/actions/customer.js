@@ -1,6 +1,19 @@
+/**
+ * Flux Action Objects
+ *
+ * 
+ */
+
+
+
 var fetch = require('../utils/fetch');
 var CONSTANTS = require('../constants/actionConstants');
+var URL = require('../constants/urls');
 
+/**
+ * Action Object  Request Customer data before ajax request 
+ * @return object 
+ */
 function requestCustomers() {
     return {
         type: CONSTANTS.REQUEST_CUSTOMER,
@@ -8,6 +21,10 @@ function requestCustomers() {
     }
 }
 
+/**
+ * Action Object from Customer data after ajax request 
+ * @return object 
+ */
 function receiveCustomer(data) {
     return {
         type: CONSTANTS.RECEIVE_CUSTOMER,
@@ -17,6 +34,10 @@ function receiveCustomer(data) {
     }
 }
 
+/**
+ * Action Object from Customer if error occurs
+ * @return object 
+ */
 function getCustomerError(data) {
     return {
         type: CONSTANTS.FETCH_CUSTOMER_ERROR,
@@ -25,11 +46,15 @@ function getCustomerError(data) {
     }
 }
 
-function fetchCustomer(customer) {
-    customer.dispatch('change', requestCustomers())
+
+/**
+ *  Ajax call to server
+ * @return object 
+ */
+function $httpFetch(url, customer) {
     fetch({
         method: "GET",
-        url: "https://www.getyourguide.com/touring.json?key=2Gr0p7z96D"
+        url: url
     }, function(response) {
         customer.dispatch('change', receiveCustomer(response));
 
@@ -37,9 +62,23 @@ function fetchCustomer(customer) {
         customer.dispatch('change', getCustomerError(error));
     });
 }
-var customerActions = {
-    fetchCustomer: fetchCustomer
+
+
+/**
+ *  Retrieve cutomer through ajax and dispatch an action upon response
+ * @return null 
+ */
+function fetchCustomer(customer) {
+    customer.dispatch('change', requestCustomers());
+    $httpFetch(URL, customer);
+    setInterval(function() {
+        $httpFetch(URL, customer);
+    }, CONSTANTS.INTERVAL)
+
 }
 
 
-module.exports = customerActions;
+
+module.exports = {
+    fetchCustomer: fetchCustomer
+};

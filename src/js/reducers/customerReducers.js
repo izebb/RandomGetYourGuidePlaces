@@ -1,3 +1,8 @@
+/**
+ * Flux Reducer Objects
+ * 
+ */
+
 var CONSTANTS = require('../constants/actionConstants');
 
 

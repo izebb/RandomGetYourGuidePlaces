@@ -1,3 +1,8 @@
+
+/**
+ * Simple event emitter class
+ * @param function reducer 
+ */
 function EventEmitter(reducer) {
     this.emitters = {};
     this.reducer = reducer;
@@ -5,11 +10,19 @@ function EventEmitter(reducer) {
 }
 
 
+/**
+ * Retrieve current state
+ * @param function reducer 
+ */
 EventEmitter.prototype.getState = function() {
    return this.state;
 }
 
-
+/**
+ * Display an action based on an event 
+ * @param  String evtType 
+ * @param  Object action 
+ */
 EventEmitter.prototype.dispatch = function(evtType, action) {
     for (var i = 0; i < this.emitters[evtType].length; i++) {
         var _emit = this.emitters[evtType][i];
@@ -17,7 +30,11 @@ EventEmitter.prototype.dispatch = function(evtType, action) {
         _emit(this.state);
     }
 }
-
+/**
+ * Event Listeners
+ * @param  String evt 
+ * @params Function argument    
+ */
 EventEmitter.prototype.on = function(evt) {
     this.emitters[evt] = this.emitters[evt] || [];
     for (var i = 1; i < arguments.length; i++) {

@@ -1,3 +1,14 @@
+
+/**
+ * Simple XMLHttpRequest Object
+ * @param  object options 
+ * {
+ *  url: url,
+ *  method: "POST", "GET"
+ * }
+ * @param  function success callback success function 
+ * @param function error   callback error function 
+ */
 function fetch(options, success, error) {
     var xhr = new XMLHttpRequest();
     xhr.addEventListener("readystatechange", processRequest, false);
@@ -10,7 +21,6 @@ function fetch(options, success, error) {
                 var response = JSON.parse(xhr.responseText);
                 success(response, xhr)
             } else {
-                console.log(xhr.responseText)
                 error(xhr.responseText, xhr)
             }
         }

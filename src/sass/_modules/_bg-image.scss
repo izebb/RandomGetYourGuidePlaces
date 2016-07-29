@@ -1,0 +1,15 @@
+$height : 100% !default; 
+$width : 100% !default; 
+@mixin bg-image($height, $width, $position:absolute) {
+    background-size: cover !important;
+    width: $width;
+    height: $height;
+    position: $position;
+
+}
+
+.bg-image{
+	@include bg-image($height, $width);
+	@include animation(fadeInBg 0.5s ease-out);
+
+}
