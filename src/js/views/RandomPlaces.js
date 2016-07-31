@@ -6,7 +6,7 @@ var Maps = require('./Maps');
 
 /**
  * Collection View aggregate all the view object
- * 
+ *     
  */
 function RandomPlace(data, node) {
     var customer = data.customer;
@@ -14,7 +14,7 @@ function RandomPlace(data, node) {
     if (!data.isFetching) {
         _dom = re('div',
             Labels(customer.customerFirstName, customer.activityTitle),
-            Maps(customer.activityCoordinateLatitude, customer.activityCoordinateLongitude),
+            Maps(customer.activityCoordinateLongitude, customer.activityCoordinateLatitude),
             Background(customer.activityPictureUrl), {
                 className: 'customer'
             }
